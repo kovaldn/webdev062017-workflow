@@ -4,12 +4,15 @@
   "description": "Kovalchuk Dima",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack src/index.js dist/bundle.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^1.6.3"
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1"
   }
 }
